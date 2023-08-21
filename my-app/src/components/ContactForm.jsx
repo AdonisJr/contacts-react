@@ -19,8 +19,7 @@ export default function ContactForm({ selectedContact, handleModal}) {
     contact_no: '',
     email: ''
   });
-  const [validationError, setValidation] = useState('')
-  console.log(validationError)
+  const [validationError, setValidation] = useState(' ')
   
   const handleValidation = () =>{
     setValidation('')
